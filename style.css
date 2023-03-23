@@ -6,13 +6,13 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .center {
-  padding-left: calc(45% - 600px);
-  padding-right: calc(45% - 600px);
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
 }
 .top {
   height: 1024px;
   width: 1440px;
-  
+
   padding-top: 217px;
 
   background-image: url(img/top_img.jpg);
@@ -20,7 +20,6 @@ body {
   background-position: center;
   background-size: cover;
 }
-
 
 .title {
   font-style: normal;
@@ -60,7 +59,7 @@ body {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -84,17 +83,16 @@ body {
   box-sizing: border-box;
 }
 .game1 {
-  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/game-1.jpg);
+  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%),
+    url(img/game-1.jpg);
 }
 
 .game2 {
-  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/game-2.jpg);
+  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%),
+    url(img/game-2.jpg);
 }
 
 .game3 {
-  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(img/game-3.jpg);
+  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%),
+    url(img/game-3.jpg);
 }
-
-
-
-
