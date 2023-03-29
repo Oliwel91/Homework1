@@ -51,11 +51,11 @@
 // let e = 23;
 // if (d > 100 || e > 100) {
 //     console.log("Верно");
-    
+
 // } else {
 //     console.log("Не верно");
 
-    
+
 // }
 
 // Задание 4
@@ -72,5 +72,34 @@
 // Тут не понял юникоды нужно записать в переменные или же как я сделал?
 
 // Задание 5.
+
+let monthNumber = String(prompt('Введите номер месяца'));
+
+switch (monthNumber) {
+    case '1':
+    case '2':
+    case '12':
+        console.log('Зима')
+        break;
+    case '3':
+    case '4':
+    case '5':
+        console.log('Весна')
+        break;
+
+    case '6':
+    case '7':
+    case '8':
+        console.log('Лето')
+        break;
+    case '9':
+    case '10':
+    case '11':
+        console.log('Осень')
+        break;
+    default:
+        console.log("номер месяца больше 13")
+        break;
+}
 
 
