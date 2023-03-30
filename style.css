@@ -17,6 +17,7 @@ body {
 }
 
 .top {
+  height: 1024px;
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
 
@@ -27,7 +28,7 @@ body {
 
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size:cover;
   display: flex;
   flex-direction: column;
 }
@@ -72,7 +73,8 @@ body {
 }
 
 .games {
-  margin-top: 255px;
+  margin-top: 493px;
+  
  
   font-weight: 600;
   font-size: 24px;
