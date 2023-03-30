@@ -1,8 +1,8 @@
 // Задание 1
 
 // let password = 'qwer';
-// let input = String (prompt('Введите пароль'));
-// if (password === qwer ) {
+// let input = prompt('Введите пароль');
+// if (password === input ) {
 //     console.log ("Пароль введен верно");
 // } else{
 //     console.log ("Пароль введен неправильно");
@@ -17,28 +17,28 @@
 //     console.log("Не верно")
 // }
 
-// let c = 0;
+// c = 0;
 // if (c > 0 && c < 10) {
 //     console.log ("Верно");
 // }else{
 //     console.log("Не верно")
 // }
 
-// let c = 10;
+// c = 10;
 // if (c > 0 && c < 10) {
 //     console.log ("Верно");
 // }else{
 //     console.log("Не верно")
 // }
 
-// let c = -3;
+// c = -3;
 // if (c > 0 && c < 10) {
 //     console.log ("Верно");
 // }else{
 //     console.log("Не верно")
 // }
 
-// let c = 2;
+// c = 2;
 // if (c > 0 && c < 10) {
 //     console.log ("Верно");
 // }else{
@@ -60,20 +60,13 @@
 
 // Задание 4
 
-// let a = '2';
-// let b = '3';
-// alert(a + b);
-
-// Решение:
-
-// let a = '2';
-// let b = '3';
-// alert(0032 + 0033);
-// Тут не понял юникоды нужно записать в переменные или же как я сделал?
+let a = Number('2');
+let b = Number('3');
+alert(a + b);
 
 // Задание 5.
 
-let monthNumber = String(prompt('Введите номер месяца'));
+let monthNumber = Number (prompt( "Введите номер месяца" ));
 
 switch (monthNumber) {
     case '1':
