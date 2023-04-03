@@ -53,14 +53,22 @@
 // console.log(nam);
 
 6.
-let date, weekday;
-weekday = Number(prompt('Какое число - первая пятница месяца?'));
+// let date, weekday;
+// weekday = Number(prompt('Какое число - первая пятница месяца?'));
 
-do {
-  date =  Number(prompt('Какое сегодня число?'));
-  if ((date - weekday)%7 == 0) { 
-		alert(`Сегодня пятница, ${date}-е число. Необходимо подготовить отчет.`);
-}} while (date <= 31);
+// do {
+//   date =  Number(prompt('Какое сегодня число?'));
+//   if ((date - weekday)%7 == 0) { 
+// 		alert(`Сегодня пятница, ${date}-е число. Необходимо подготовить отчет.`);
+// }} while (date <= 31);
+
+
+const firstFriday = 7;
+for (let day = firstFriday; day <= 30; day += 7) {
+    const message = `Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`;
+    console.log(message);
+
+}
 
 
 
