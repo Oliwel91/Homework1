@@ -43,14 +43,24 @@
 
 5.
 
-let n = 1000;
-let nam = 0;
-while (n >= 50) {
-    n /= 2;
-    nam++;
-}
-console.log(n);
-console.log(nam);
+// let n = 1000;
+// let nam = 0;
+// while (n >= 50) {
+//     n /= 2;
+//     nam++;
+// }
+// console.log(n);
+// console.log(nam);
+
+6.
+let date, weekday;
+weekday = Number(prompt('Какое число - первая пятница месяца?'));
+
+do {
+  date =  Number(prompt('Какое сегодня число?'));
+  if ((date - weekday)%7 == 0) { 
+		alert(`Сегодня пятница, ${date}-е число. Необходимо подготовить отчет.`);
+}} while (date <= 31);
 
 
 
