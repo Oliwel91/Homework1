@@ -43,14 +43,14 @@
 
 5.
 
-// let n = 1000;
-// let nam = 0;
-// while (n >= 50) {
-//     n /= 2;
-//     nam++;
-// }
-// console.log(n);
-// console.log(nam);
+let n = 1000;
+let nam = 0;
+while (n >= 50) {
+    n /= 2; // 500,250,125,62.5,31,25
+    nam++; // 1,2,3,4,5
+}
+console.log(n);
+console.log(nam);
 
 6.
 // let date, weekday;
