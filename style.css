@@ -129,6 +129,9 @@ body {
   row-gap: 64px;
   justify-content: space-between;
 }
+.bottom-image {
+  width: 100%;
+}
 .seasons {
   display: flex;
   flex-direction: column;
@@ -138,6 +141,10 @@ body {
 }
 .seasons_head {
   font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+}
+.seasons-heading {
   font-size: 48px;
   line-height: 59px;
 }
@@ -172,7 +179,7 @@ body {
   }
 
   .games {
-    /* margin-top: 366px; */
+  
     padding: 16px;
   }
   .bottom {
@@ -188,4 +195,12 @@ body {
   .bottom_img {
     width: 100%;
   }
+  .bottom-words {
+    flex-direction: column-reverse;
+  }
+  .button_top {
+    margin-top: 0;
+  }
+  
+
 }
