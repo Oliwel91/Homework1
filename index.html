@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -16,25 +16,62 @@
 </head>
 
 <body>
-    <div class="top center">
+    <div class="top center ">
         <section class="top_content">
-            <h1 class="title">Добро пожаловать <br> на мой сайт !</h1>
-            <p class="top_text">Вам предстоит пройти несколько увлекательных <br> игр. Если готов нажимай поехали и
+            <h1 class="title">Добро пожаловать на мой сайт !</h1>
+            <p class="top_text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай поехали и
                 приступай</p>
+            <button class="button_top">Поехали!</button>
+
         </section>
-        <button class="button_top">Поехали!</button>
+
 
     </div>
-    <ul class="games">
+    <ul class="games center">
         <li class="game1 game-go">Игра 1</li>
         <li class="game2 game-go">Игра 2</li>
-        <li class="game2 game-go">Игра 3</li>
+        <li class="game3 game-go">Игра 3</li>
     </ul>
+    <section class="bottom center">
+        <div class="seasons">
+            <h2 class="seasons_head">Времена года!</h2>
+
+            <p class="top_text top_text-bottom ">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к
+                какому времени года он относится
+            </p>
+            <a href="#" class="button_top seasons_bottom " onclick="season();">Играть!</a>
+            <!-- <button class="button_top seasons_bottom ">Играть!</button> -->
+
+         
 
 
-    </div>
+        </div>
+        <div>
+            <img class="bottom_img" src="img/bottom_img.png" alt="">
 
-    
+        </div>
+
+
+
+    </section>
+    <section class="bottom bottom-words">
+        <div>
+            <img src="img/words.png" alt="Picture" class="bottom-image">
+        </div>
+        <div class="seasons">
+            <h3 class="seasons-heading">Запомни слова</h3>
+            <p class="top_text top_text-bottom">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <a href="#" class="button_top seasons_bottom">Играть!</a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+
+
+
+
+
+
 </body>
 
 </html>
