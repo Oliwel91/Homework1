@@ -26,7 +26,7 @@
 
 // function number(nam) {
     
-//     return (nam * 2);
+//     return nam * 2;
 // }
 // console.log (number(2))
 
@@ -65,7 +65,7 @@
 // function checkNumber () {
 //     let input = (prompt("Введите число"));
 //     console.log(typeof input);
-//     if (isNaN(input) === false) {
+//     if (!isNaN(input) === false) {
 //       return Math.pow(input,3);
 //     } else {
 //       return 'n в кубе равняется <получившееся значение>'
@@ -78,7 +78,7 @@
 // function checkNumber () {
 //   let input = (prompt("Введите число"));
 //   console.log(typeof input);
-//   if (isNaN(input) === false) {
+//   if (!isNaN(input) === false) {
 //     return Math.pow(input,3);
 //   } else {
 //     return `${input} в кубе равняется ${Math.pow(input,3)}`
