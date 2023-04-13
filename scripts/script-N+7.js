@@ -57,7 +57,57 @@
 // }
 // result(min, max);
 
-8.
+// 8.
+
+// let myDate = new Date(); 
+// console.log(myDate);
+
+// 9.
+
+// let currentDate = new Date();
+// currentDate.setDate(currentDate.getDate() + 73);
+
+// console.log(currentDate); 
+
+// 10.
+
+// let currentDate = new Date();
+
+// const days = ["воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"];
+
+// const months = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"];
+
+// let fullDate = "Дата: " + currentDate.getDate() + " " + months[currentDate.getMonth()] + " " + currentDate.getFullYear() + " - это " + days[currentDate.getDay()] + ". "; 
+
+// let fullTime = "Время: " + currentDate.getHours() + " " + currentDate.getMinutes() + " " + currentDate.getSeconds() + ".";
+
+// console.log(fullDate + fullTime);
+
+11.
+
+function words() {
+
+    let arr = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+  
+    arr = arr.sort(() => Math.random() - 0.5);
+  
+    alert(arr);
+  
+    let answer1 = String(prompt('Чему равнялся первый элемент массива?'));
+  
+    let answer2 = String(prompt('Чему равнялся последний элемент массива?'));
+  
+    if (answer1.toLowerCase() == arr[0].toLowerCase() && answer2 == arr[6].toLowerCase()) {
+      alert('Поздравляю, Вы угадали оба элемента массива');
+    } else if (answer1.toLowerCase() == arr[0].toLowerCase() || answer2 == arr[6].toLowerCase()) {
+      alert('Вы были близки к победе!');
+    } else {
+      alert('Вы ответили неверно!');
+    }
+  }
+
+
+
 
 
 
