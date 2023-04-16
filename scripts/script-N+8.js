@@ -49,27 +49,33 @@
 
 // getSortedArrayObj(getResult, users);
 
-3.
-function reversArr(arr) {
-  arr.reverse();
-  console.log(arr);
-}
+// 3.
+// function reversArr(arr) {
+//   arr.reverse();
+//   console.log(arr);
+// }
 
-function toNumberArr(arr) {
-  arr = arr.filter(item => !isNaN(item));
-  arr = arr.map(Number);
-  console.log(arr);
-}
+// function toNumberArr(arr) {
+//   arr = arr.filter(item => !isNaN(item));
+//   arr = arr.map(Number);
+//   console.log(arr);
+// }
 
-function each(callback, arr) {
-  callback(arr);
-}
+// function each(callback, arr) {
+//   callback(arr);
+// }
 
-// /const arr = [1, '4', 9, 'two'];
-// each(reversArr, arr);/
+// // /const arr = [1, '4', 9, 'two'];
+// // each(reversArr, arr);/
 
-const arr = [1, '4', false, 9, 'two'];
-each(toNumberArr, arr);
+// const arr = [1, '4', false, 9, 'two'];
+// each(toNumberArr, arr);
+
+4.
+
+let timerId = setInterval(() => console.log(new Date()), 3000);
+
+setTimeout(() => { clearInterval(timerId); console.log('30 секунд прошло'); }, 30000);
 
 5.
 
